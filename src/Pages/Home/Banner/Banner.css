@@ -1,3 +1,29 @@
+.banner-style{
+    background:  url('../../../images/banner/hero-1.png') no-repeat center center ;
+    background-size:cover;
+    min-height: 626px;
+}
+
 .banner-text{
     color: #BC74A5;
-};
+}
+@media only screen and (max-width:576px) {
+    .part{
+        margin-top: 130px;
+    }
+    .banner-text{
+        font-size: 15px;
+    }
+    .banner-style{
+        background: linear-gradient(
+            rgba(180, 164, 164, 0.342), 
+            rgba(226, 221, 221, 0.377)
+          ),  url('../../../images/banner/hero-1.png') no-repeat center center; 
+    }
+    .banner-second-text{
+        font-weight: bold;
+    }
+    .banner-p{
+        width: 250px;
+    }
+}
