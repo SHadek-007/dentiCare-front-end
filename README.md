@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# DentiCare
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## DentiCare All Feature's
+* Super Fast Data Load
+* 1 Page Application
+* Protected Route Use
+* Using React Router
+* No Reload Issue
+* Google Sign in & Sign up
+* GitHub Sign in & Sign up
+
+## Technologies used on this website
+* CSS
+* JS
+* React js
+* React Bootstrap
+* React Router
+* Firebase
+* React Firebase Hooks
+* React Toastify
 
 ## Available Scripts
 

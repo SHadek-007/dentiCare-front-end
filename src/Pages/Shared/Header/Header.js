@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <>
-      <Navbar className="header-style" collapseOnSelect expand="lg" variant="light">
+      <Navbar className="header-style" sticky="top" collapseOnSelect expand="lg" variant="light">
         <Container>
           <Navbar.Brand as={Link} to="/"><img style={{height:'50px'}} className="w-100" src={logo} alt="Red Onion Logo" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
