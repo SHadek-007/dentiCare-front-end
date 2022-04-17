@@ -1,6 +1,6 @@
 # DentiCare
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Site Link](https://react-denticare.web.app/)
 
 ## DentiCare All Feature's
 * Super Fast Data Load
