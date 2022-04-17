@@ -101,9 +101,9 @@ const SignIn = () => {
         </Button>
       </Form>
       <p className="mt-3">
-        New to Red Onion?{" "}
+        New to Denticare Service?
         <span
-          className="text-danger"
+          className="text-primary"
           style={{ cursor: "pointer" }}
           onClick={navigateToSignUp}
         >
@@ -111,9 +111,9 @@ const SignIn = () => {
         </span>
       </p>
       <p className="mt-3">
-        Forget Password?{" "}
+        Forget Password?
         <span
-          className="text-danger"
+          className="text-primary"
           style={{ cursor: "pointer" }}
           onClick={resetPassword}
         >

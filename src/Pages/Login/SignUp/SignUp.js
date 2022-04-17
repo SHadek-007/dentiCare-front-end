@@ -108,9 +108,9 @@ const SignUp = () => {
         </Button>
       </Form>
       <p className="mt-3">
-        Already Have an Account?{" "}
+        Already Have an Account?
         <span
-          className="text-danger"
+          className="text-primary"
           style={{ cursor: "pointer" }}
           onClick={navigateToSignIn}
         >

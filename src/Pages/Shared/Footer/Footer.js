@@ -16,7 +16,7 @@ const Footer = () => {
                     <Col sm={12} md={4}>
                         <div className='mx-auto'>
                         <h3>DentiCare</h3>
-                        <p><small>A team of dentists working to ensure <br /> you receive the best treatment.</small></p>
+                        <p><small>A Good dentists working to ensure <br /> you receive the best treatment.</small></p>
                         <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> <small>415-205-5550</small> <br />
                         <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon> <small>emergencies@denticare.com</small> <br />
                         <FontAwesomeIcon icon={faEarthAsia}></FontAwesomeIcon> <small>denticare.com</small> <br />
@@ -35,7 +35,7 @@ const Footer = () => {
                     <Col sm={12} md={4}>
                         <div>
                         <h3>Social Networks</h3>
-                        <p><small>Visit DentiCare on these social links <br /> and connect with us. Make sure to <br /> follow our accounts for regular updates.</small></p>
+                        <p><small>Visit DentiCare on these social links <br /> and connect with me. Make sure to <br /> follow my accounts for regular updates.</small></p>
                         <div className='mt-3'>
                             <img className='me-4' src={facebook} alt="" />
                             <img className='ms-3' src={twiter} alt="" />
