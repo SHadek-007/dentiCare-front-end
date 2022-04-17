@@ -25,7 +25,7 @@ const Footer = () => {
                     <Col sm={12} md={4}>
                         <div className='mx-auto'>
                         <h3>About</h3>
-                        <p><small>Our Dental Team</small></p>
+                        <p><small>My Dental Experince</small></p>
                         <p><small>Pricing & Pricelist</small></p>
                         <p><small>Solutions</small></p>
                         <p><small>Dental Services</small></p>
@@ -49,7 +49,6 @@ const Footer = () => {
             <div className='bg-primary'>
                 <Container>
                     <Row className='text-white pt-4'>
-                        <Col xs={12} md={6}>Copyright &copy; 2022 -denticare.com</Col>
                         <Col xs={12} md={6}>
                             <div className='d-flex justify-content-center align-items-center'>
                             <p className='me-3'>Privacy & Policy</p>
@@ -58,6 +57,7 @@ const Footer = () => {
                             <p className='ms-5'>About US</p>
                             </div>
                         </Col>
+                        <Col xs={12} md={6} className='d-flex justify-content-center'>Copyright &copy; 2022 -denticare.com</Col>
                     </Row>
                 </Container>
             </div>
