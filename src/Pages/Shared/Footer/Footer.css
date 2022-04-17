@@ -1,0 +1,7 @@
+.footer-style p{
+    margin: 0;
+}
+.footer-style p:hover{
+    color: #BC74A5;
+    cursor: pointer;
+}
