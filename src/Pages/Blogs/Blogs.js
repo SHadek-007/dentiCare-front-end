@@ -2,8 +2,8 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='container'>
-            <h3>১। Authentication এবং authorization এর মধ্যে পার্থক্য কি?</h3>
+        <div className='container my-4'>
+            <h3>1। Authentication এবং authorization এর মধ্যে পার্থক্য কি?</h3>
             <p><span className='fw-bold'>উত্তর:</span> Authentication এবং authorization এর মধ্যে পার্থক্য সমূহ: <br />
             Authentication: <br />
             # Authentication ব্যবহারকারী কে তা যাচাই করে। <br />
@@ -24,12 +24,24 @@ const Blogs = () => {
             # Firebase Google Ads, AdMob, DoubleClick, Play Store, Data Studio, BigQuery এবং Slack-এ ইন্টিগ্রেশন অফার করে, যাতে আপনার অ্যাপ ডেভেলপমেন্টকে দক্ষ এবং নির্ভুল ব্যবস্থাপনা এবং রক্ষণাবেক্ষণ করা যায়। <br /><br />
             # ডাটাবেস, বিশ্লেষণ থেকে শুরু করে ক্র্যাশিং রিপোর্ট সবকিছুই Firebase-এ অন্তর্ভুক্ত। সুতরাং, অ্যাপ ডেভেলপমেন্ট দলগুলি ব্যবহারকারীর অভিজ্ঞতা উন্নত করার দিকে মনোনিবেশ করতে পারে| <br /><br />
 
-            # Firebase ব্যবহার না করলে অন্য যে third party Authentication ব্যবহার করা যেতে পারে। যেমন: <br />
+            <span className='fw-bold'># Firebase ব্যবহার না করলে অন্য যে third party Authentication ব্যবহার করা যেতে পারে।</span> যেমন: <br />
             1. STYTCH <br />
             2. ORY <br />
             3. Supabase <br />
             4. Okta <br />
             5. Auth0
+            </p>
+            <h3>3| What other services does firebase provide other than authentication?</h3>
+            <p><span className='fw-bold'>উত্তর:</span> ফায়ারবেস প্রদান করে Authentication ছাড়া এমন আরো অনেকগুলি service রয়েছে যার মধ্যে সবচেয়ে দরকারী হল: <br />
+            # Cloud Firestore <br />
+            # Cloud Functions <br />
+            # Hosting <br />
+            # Cloud Storage <br />
+            # Google Analytics <br />
+            # Predictions <br />
+            # Cloud Messaging <br />
+            # Dynamic Links <br />
+            # Remote Config
             </p>
         </div>
     );
