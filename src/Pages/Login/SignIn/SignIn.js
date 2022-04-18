@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import {
+  useAuthState,
   useSendPasswordResetEmail,
   useSignInWithEmailAndPassword,
 } from "react-firebase-hooks/auth";
@@ -14,22 +15,24 @@ import 'react-toastify/dist/ReactToastify.css';
 import "./SignIn.css";
 
 const SignIn = () => {
+  const [user] = useAuthState(auth);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const location = useLocation();
   const navigate = useNavigate();
 
   let from = location.state?.from?.pathname || "/";
+
+  const [signInWithEmailAndPassword, , loading, error] =
+    useSignInWithEmailAndPassword(auth);
+
+  const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
   useEffect(()=>{
     if (user) {
         navigate(from, { replace: true });
       };
   })
-  const [signInWithEmailAndPassword, user, loading, error] =
-    useSignInWithEmailAndPassword(auth);
-
-  const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
-
+  
   if (loading || sending) {
     return <Loading></Loading>;
   };

@@ -1,3 +1,5 @@
+import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -13,9 +15,12 @@ const DoctorIdentity = () => {
                     </Col>
                     <Col xs={12} md={6} className='d-flex align-items-center mt-4'>
                         <div>
-                            <h1 className='text-primary'>Edwin Southgate</h1>
+                            <h1 className='text-primary'>Dr. Edwin Southgate</h1>
                             <h5>Pediatric Dentist</h5>
                             <p>Objectively integrate enterprise-wide strategic theme areas with good infrastructures. Interactively productize premium technologies.</p>
+                            <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> <small>415-205-5550</small> <br />
+                            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon> <small>dredwinsout@denticare.com</small> <br />
+                            <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> <small>500 Linden Ave, South San Francisco,<br />CA 94080, United States</small>
                         </div>
                     </Col>
                 </Row>
